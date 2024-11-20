@@ -1,5 +1,5 @@
 {
-  "name": "@devopsguardians/easycampus-college-admin-system",
+  "name": "easycampus-college-admin-system",
   "version": "1.0.0",
   "description": "TypeScript library that simplifies college management tasks ",
   "main": "dist/index.js",
