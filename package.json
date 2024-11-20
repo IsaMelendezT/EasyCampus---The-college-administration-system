@@ -1,7 +1,7 @@
 {
   "name": "@devopsguardians/easycampus-college-admin-system",
   "version": "1.0.0",
-  "description": "A brief description of your package",
+  "description": "TypeScript library that simplifies college management tasks ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -207,6 +207,6 @@
     "yocto-queue": "^0.1.0"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "DevOps Guardians Team",
+  "license": "MIT"
 }
