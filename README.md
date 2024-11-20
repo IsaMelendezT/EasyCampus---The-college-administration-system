@@ -8,8 +8,7 @@
 
 You can install the package via npm:
 
-npm install @devopsguardians/easycampus-college-admin-system
-
+npm i easycampus-college-admin-system
 
 ## Traceability Matrix
 
