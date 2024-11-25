@@ -10,6 +10,42 @@ export class Enrollment {
       this.programId = programId;
       this.status = "Enrolled";
     }
+
+     // Getter and Setter for enrollmentId
+    public getEnrollmentId(): string {
+      return this.enrollmentId;
+    }
+
+    public setEnrollmentId(value: string): void {
+      this.enrollmentId = value;
+    }
+
+    // Getter and Setter for studentId
+    public getStudentId(): string {
+      return this.studentId;
+    }
+
+    public setStudentId(value: string): void {
+      this.studentId = value;
+    }
+
+    // Getter and Setter for programId
+    public getProgramId(): string {
+      return this.programId;
+    }
+
+    public setProgramId(value: string): void {
+      this.programId = value;
+    }
+
+    // Getter and Setter for status
+    public getStatus(): string {
+      return this.status;
+    }
+
+    public setStatus(value: string): void {
+      this.status = value;
+    }
   
     public confirmEnrollment(): void {
       console.log(`Enrollment confirmed for student ${this.studentId} in program ${this.programId}`);

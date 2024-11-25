@@ -11,15 +11,15 @@ class Enrollment {
 
     // Getter methods for testing
     getEnrollmentId() {
-        return this._enrollmentId;
+        return this.enrollmentId;
     }
 
     getStudentId() {
-        return this._studentId;
+        return this.studentId;
     }
 
     getProgramId() {
-        return this._programId;
+        return this.programId;
     }
     
     confirmEnrollment() {

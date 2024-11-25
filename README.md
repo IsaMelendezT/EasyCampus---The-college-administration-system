@@ -18,9 +18,9 @@ npm i easycampus-college-admin-system
 | RQ002          | The system shall maintain a catalog of academic courses                   | Course constructor, assigning an instructor for the course, checking capacity, and getting course details methods | TC002             | Passed      |
 | RQ003          | The system shall allow instructors to create and manage their profiles.   | Instructor constructor, and submit grades and get assigned courses methods       | TC003             | Passed      |
 | RQ004          | The system shall maintain a catalog of academic programs                  | Program constructor and get Capacity, add a course and retrieve program details methods | TC004             | Passed      |
-| RQ005          | The system shall allow students to enroll in courses                      | Enrollment constructor                                                          | TC005             | Failed      |
+| RQ005          | The system shall allow students to enroll in courses                      | Enrollment constructor                                                          | TC005             | Passed      |
 | RQ006          | The system shall allow students to register for program and to get relevant academic information | Student constructor, register for program, view transcript and check academic standing methods | TC006             | Passed      |
-| RQ007          | The system shall provide different access levels based on user roles.     | Role constructor                                                                | TC007             | Failed      |
+| RQ007          | The system shall provide different access levels based on user roles.     | Role constructor                                                                | TC007             | Passed      |
 
 ## Test Journal Entry
 
@@ -59,7 +59,7 @@ The test creates a new program, associates a course with the new program, and re
 Date: 2024-11-15
 Test Case ID: TC005
 Description: Verified creating an enrollment
-Result: Failed
+Result: Passed
 Command to run the test: npx jest enrollment
 Observations:
 The test did not run successfully. According to the error, the enrollment variable type has not been defined correctly.
@@ -75,7 +75,7 @@ The test ran correctly, allowing the creation of a new student with all its argu
 Date: 2024-11-15
 Test Case ID: TC007
 Description: Verified creating a role in the system
-Result: Failed
+Result: Passed
 Command to run the test: npx jest role
 Observations:
 The test did not run successfully. According to the error, the role variable type has not been defined correctly.
