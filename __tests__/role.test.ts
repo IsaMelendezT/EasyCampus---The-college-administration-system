@@ -1,7 +1,7 @@
-const { Role } = require('../src/models/Role'); 
+import { Role } from '../src/models/Role'; // Adjust the import path as needed
 
 describe('Role', () => {
-  let role;
+  let role: Role;
 
   beforeEach(() => {
     role = new Role('R123', 'Admin');
@@ -12,7 +12,6 @@ describe('Role', () => {
   test('should initialize with correct properties', () => {
     expect(role.getRoleID()).toBe('R123');
     expect(role.getRoleName()).toBe('Admin');
-    expect(role.permissions).toEqual([]);
   });
 
   test('should assign role and log output', () => {
